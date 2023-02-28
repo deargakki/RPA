@@ -1,0 +1,459 @@
+
+START - automation started - Mon Feb 27 2023 23:10:36 GMT+0800 (中国标准时间)
+
+LIVE MODE - type done to quit
+ [RPA][STARTED]
+[RPA][0] - listening for inputs
+[RPA][1] - https://www.qcc.com/
+[RPA][1] - listening for inputs
+[RPA][2] - dom return document.readyState=="complete"
+[RPA][2] - listening for inputs
+[RPA][3] - dump dom_result to rpa_python.txt
+[RPA][3] - listening for inputs
+[RPA][4] - dom return document.readyState=="complete"
+[RPA][4] - listening for inputs
+[RPA][5] - dump dom_result to rpa_python.txt
+[RPA][5] - listening for inputs
+[RPA][6] - exist_result = exist('#searchKey').toString()
+[RPA][6] - listening for inputs
+[RPA][7] - dump exist_result to rpa_python.txt
+[RPA][7] - listening for inputs
+[RPA][8] - type #searchKey as 深圳洁盟技术股份有限公�?
+[RPA][8] - listening for inputs
+[RPA][9] - exist_result = exist('body > div > div.app-home > section.nindex-search > div > div > div > div.app-search-input.big > div > div > span > button').toString()
+[RPA][9] - listening for inputs
+[RPA][10] - dump exist_result to rpa_python.txt
+[RPA][10] - listening for inputs
+[RPA][11] - click body > div > div.app-home > section.nindex-search > div > div > div > div.app-search-input.big > div > div > span > button
+[RPA][11] - listening for inputs
+[RPA][12] - dom return document.readyState=="complete"
+[RPA][12] - listening for inputs
+[RPA][13] - dump dom_result to rpa_python.txt
+[RPA][13] - listening for inputs
+[RPA][14] - dom return document.readyState=="complete"
+[RPA][14] - listening for inputs
+[RPA][15] - dump dom_result to rpa_python.txt
+[RPA][15] - listening for inputs
+[RPA][16] - dom element = document.querySelector('body > div > div.app-search > div.container.m-t > div.adsearch-list > div > div.msearch.select-search-enable > div > table > tr.frtrt.tsd0 > td:nth-child(3) > div > span > span.copy-title > a')
+[RPA][16] - listening for inputs
+[RPA][17] - dump dom_result to rpa_python.txt
+[RPA][17] - listening for inputs
+[RPA][18] - dom return element.href
+[RPA][18] - listening for inputs
+[RPA][19] - dump dom_result to rpa_python.txt
+[RPA][19] - listening for inputs
+[RPA][20] - https://www.qcc.com/firm/07c0dcea1ff734b20f79227aafce92db.html
+[RPA][20] - listening for inputs
+[RPA][21] - dom return document.readyState=="complete"
+[RPA][21] - listening for inputs
+[RPA][22] - dump dom_result to rpa_python.txt
+[RPA][22] - listening for inputs
+[RPA][23] - dom return document.readyState=="complete"
+[RPA][23] - listening for inputs
+[RPA][24] - dump dom_result to rpa_python.txt
+[RPA][24] - listening for inputs
+[RPA][25] - dom a = document.querySelector('body > div > div.company-detail > div:nth-child(4) > div > div > div.nav-head > a:nth-child(1) > h2')
+[RPA][25] - listening for inputs
+[RPA][26] - dump dom_result to rpa_python.txt
+[RPA][26] - listening for inputs
+[RPA][27] - dom return a.textContent
+[RPA][27] - listening for inputs
+[RPA][28] - dump dom_result to rpa_python.txt
+[RPA][28] - listening for inputs
+[RPA][29] - dom a229 = 0
+[RPA][29] - listening for inputs
+[RPA][30] - dump dom_result to rpa_python.txt
+[RPA][30] - listening for inputs
+[RPA][31] - dom if (document.querySelector('#partner > div:nth-child(2) > div.app-tree-table > table > tr:nth-child(2) > td.left > div > span.cont > span > a')){a229 = 1}
+[RPA][31] - listening for inputs
+[RPA][32] - dump dom_result to rpa_python.txt
+[RPA][32] - listening for inputs
+[RPA][33] - dom return a229
+[RPA][33] - listening for inputs
+[RPA][34] - dump dom_result to rpa_python.txt
+[RPA][34] - listening for inputs
+[RPA][35] - dom a = document.querySelectorAll('#partner > div:nth-child(2) > div.app-tree-table > table > tr > td.left > div > span.cont > span > a')
+[RPA][35] - listening for inputs
+[RPA][36] - dump dom_result to rpa_python.txt
+[RPA][36] - listening for inputs
+[RPA][37] - dom return a.length
+[RPA][37] - listening for inputs
+[RPA][38] - dump dom_result to rpa_python.txt
+[RPA][38] - listening for inputs
+[RPA][39] - exist_result = exist('#partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(2) > td.left > div > span.cont > span > a').toString()
+[RPA][39] - listening for inputs
+[RPA][40] - dump exist_result to rpa_python.txt
+[RPA][40] - listening for inputs
+[RPA][41] - read #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(2) > td.left > div > span.cont > span > a to read_result
+[RPA][41] - listening for inputs
+[RPA][42] - dump read_result to rpa_python.txt
+[RPA][42] - listening for inputs
+[RPA][43] - dom element = document.querySelector(' #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(2) > td.left > div > span.cont > span > a ')
+[RPA][43] - listening for inputs
+[RPA][44] - dump dom_result to rpa_python.txt
+[RPA][44] - listening for inputs
+[RPA][45] - dom return element.href
+[RPA][45] - listening for inputs
+[RPA][46] - dump dom_result to rpa_python.txt
+[RPA][46] - listening for inputs
+[RPA][47] - exist_result = exist('#partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(3) > td.left > div > span.cont > span > a').toString()
+[RPA][47] - listening for inputs
+[RPA][48] - dump exist_result to rpa_python.txt
+[RPA][48] - listening for inputs
+[RPA][49] - read #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(3) > td.left > div > span.cont > span > a to read_result
+[RPA][49] - listening for inputs
+[RPA][50] - dump read_result to rpa_python.txt
+[RPA][50] - listening for inputs
+[RPA][51] - dom element = document.querySelector(' #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(3) > td.left > div > span.cont > span > a ')
+[RPA][51] - listening for inputs
+[RPA][52] - dump dom_result to rpa_python.txt
+[RPA][52] - listening for inputs
+[RPA][53] - dom return element.href
+[RPA][53] - listening for inputs
+[RPA][54] - dump dom_result to rpa_python.txt
+[RPA][54] - listening for inputs
+[RPA][55] - exist_result = exist('#partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(4) > td.left > div > span.cont > span > a').toString()
+[RPA][55] - listening for inputs
+[RPA][56] - dump exist_result to rpa_python.txt
+[RPA][56] - listening for inputs
+[RPA][57] - read #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(4) > td.left > div > span.cont > span > a to read_result
+[RPA][57] - listening for inputs
+[RPA][58] - dump read_result to rpa_python.txt
+[RPA][58] - listening for inputs
+[RPA][59] - dom element = document.querySelector(' #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(4) > td.left > div > span.cont > span > a ')
+[RPA][59] - listening for inputs
+[RPA][60] - dump dom_result to rpa_python.txt
+[RPA][60] - listening for inputs
+[RPA][61] - dom return element.href
+[RPA][61] - listening for inputs
+[RPA][62] - dump dom_result to rpa_python.txt
+[RPA][62] - listening for inputs
+[RPA][63] - exist_result = exist('#partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(5) > td.left > div > span.cont > span > a').toString()
+[RPA][63] - listening for inputs
+[RPA][64] - dump exist_result to rpa_python.txt
+[RPA][64] - listening for inputs
+[RPA][65] - read #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(5) > td.left > div > span.cont > span > a to read_result
+[RPA][65] - listening for inputs
+[RPA][66] - dump read_result to rpa_python.txt
+[RPA][66] - listening for inputs
+[RPA][67] - dom element = document.querySelector(' #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(5) > td.left > div > span.cont > span > a ')
+[RPA][67] - listening for inputs
+[RPA][68] - dump dom_result to rpa_python.txt
+[RPA][68] - listening for inputs
+[RPA][69] - dom return element.href
+[RPA][69] - listening for inputs
+[RPA][70] - dump dom_result to rpa_python.txt
+[RPA][70] - listening for inputs
+[RPA][71] - count_result = count('//*[@id="mainmember"]/div[2]/div[2]/table/tr/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][71] - listening for inputs
+[RPA][72] - dump count_result to rpa_python.txt
+[RPA][72] - listening for inputs
+[RPA][73] - count_result = count('//*[@id="mainmember"]/div[3]/div[2]/table/tr/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][73] - listening for inputs
+[RPA][74] - dump count_result to rpa_python.txt
+[RPA][74] - listening for inputs
+[RPA][75] - dom a = document.querySelector('body > div > div.company-detail > div:nth-child(4) > div > div > div.nav-head > a:nth-child(1) > h2')
+[RPA][75] - listening for inputs
+[RPA][76] - dump dom_result to rpa_python.txt
+[RPA][76] - listening for inputs
+[RPA][77] - dom return a.textContent
+[RPA][77] - listening for inputs
+[RPA][78] - dump dom_result to rpa_python.txt
+[RPA][78] - listening for inputs
+[RPA][79] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][79] - listening for inputs
+[RPA][80] - dump exist_result to rpa_python.txt
+[RPA][80] - listening for inputs
+[RPA][81] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][81] - listening for inputs
+[RPA][82] - dump read_result to rpa_python.txt
+[RPA][82] - listening for inputs
+[RPA][83] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[3]').toString()
+[RPA][83] - listening for inputs
+[RPA][84] - dump exist_result to rpa_python.txt
+[RPA][84] - listening for inputs
+[RPA][85] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[3] to read_result
+[RPA][85] - listening for inputs
+[RPA][86] - dump read_result to rpa_python.txt
+[RPA][86] - listening for inputs
+[RPA][87] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][87] - listening for inputs
+[RPA][88] - dump exist_result to rpa_python.txt
+[RPA][88] - listening for inputs
+[RPA][89] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][89] - listening for inputs
+[RPA][90] - dump read_result to rpa_python.txt
+[RPA][90] - listening for inputs
+[RPA][91] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[3]').toString()
+[RPA][91] - listening for inputs
+[RPA][92] - dump exist_result to rpa_python.txt
+[RPA][92] - listening for inputs
+[RPA][93] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[3] to read_result
+[RPA][93] - listening for inputs
+[RPA][94] - dump read_result to rpa_python.txt
+[RPA][94] - listening for inputs
+[RPA][95] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[4]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][95] - listening for inputs
+[RPA][96] - dump exist_result to rpa_python.txt
+[RPA][96] - listening for inputs
+[RPA][97] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[4]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][97] - listening for inputs
+[RPA][98] - dump read_result to rpa_python.txt
+[RPA][98] - listening for inputs
+[RPA][99] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[4]/td[3]').toString()
+[RPA][99] - listening for inputs
+[RPA][100] - dump exist_result to rpa_python.txt
+[RPA][100] - listening for inputs
+[RPA][101] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[4]/td[3] to read_result
+[RPA][101] - listening for inputs
+[RPA][102] - dump read_result to rpa_python.txt
+[RPA][102] - listening for inputs
+[RPA][103] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[5]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][103] - listening for inputs
+[RPA][104] - dump exist_result to rpa_python.txt
+[RPA][104] - listening for inputs
+[RPA][105] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[5]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][105] - listening for inputs
+[RPA][106] - dump read_result to rpa_python.txt
+[RPA][106] - listening for inputs
+[RPA][107] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[5]/td[3]').toString()
+[RPA][107] - listening for inputs
+[RPA][108] - dump exist_result to rpa_python.txt
+[RPA][108] - listening for inputs
+[RPA][109] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[5]/td[3] to read_result
+[RPA][109] - listening for inputs
+[RPA][110] - dump read_result to rpa_python.txt
+[RPA][110] - listening for inputs
+[RPA][111] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[6]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][111] - listening for inputs
+[RPA][112] - dump exist_result to rpa_python.txt
+[RPA][112] - listening for inputs
+[RPA][113] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[6]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][113] - listening for inputs
+[RPA][114] - dump read_result to rpa_python.txt
+[RPA][114] - listening for inputs
+[RPA][115] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[6]/td[3]').toString()
+[RPA][115] - listening for inputs
+[RPA][116] - dump exist_result to rpa_python.txt
+[RPA][116] - listening for inputs
+[RPA][117] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[6]/td[3] to read_result
+[RPA][117] - listening for inputs
+[RPA][118] - dump read_result to rpa_python.txt
+[RPA][118] - listening for inputs
+[RPA][119] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[7]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][119] - listening for inputs
+[RPA][120] - dump exist_result to rpa_python.txt
+[RPA][120] - listening for inputs
+[RPA][121] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[7]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][121] - listening for inputs
+[RPA][122] - dump read_result to rpa_python.txt
+[RPA][122] - listening for inputs
+[RPA][123] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[7]/td[3]').toString()
+[RPA][123] - listening for inputs
+[RPA][124] - dump exist_result to rpa_python.txt
+[RPA][124] - listening for inputs
+[RPA][125] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[7]/td[3] to read_result
+[RPA][125] - listening for inputs
+[RPA][126] - dump read_result to rpa_python.txt
+[RPA][126] - listening for inputs
+[RPA][127] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[8]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][127] - listening for inputs
+[RPA][128] - dump exist_result to rpa_python.txt
+[RPA][128] - listening for inputs
+[RPA][129] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[8]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][129] - listening for inputs
+[RPA][130] - dump read_result to rpa_python.txt
+[RPA][130] - listening for inputs
+[RPA][131] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[8]/td[3]').toString()
+[RPA][131] - listening for inputs
+[RPA][132] - dump exist_result to rpa_python.txt
+[RPA][132] - listening for inputs
+[RPA][133] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[8]/td[3] to read_result
+[RPA][133] - listening for inputs
+[RPA][134] - dump read_result to rpa_python.txt
+[RPA][134] - listening for inputs
+[RPA][135] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[9]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][135] - listening for inputs
+[RPA][136] - dump exist_result to rpa_python.txt
+[RPA][136] - listening for inputs
+[RPA][137] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[9]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][137] - listening for inputs
+[RPA][138] - dump read_result to rpa_python.txt
+[RPA][138] - listening for inputs
+[RPA][139] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[9]/td[3]').toString()
+[RPA][139] - listening for inputs
+[RPA][140] - dump exist_result to rpa_python.txt
+[RPA][140] - listening for inputs
+[RPA][141] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[9]/td[3] to read_result
+[RPA][141] - listening for inputs
+[RPA][142] - dump read_result to rpa_python.txt
+[RPA][142] - listening for inputs
+[RPA][143] - dom window.history.back(-1)
+[RPA][143] - listening for inputs
+[RPA][144] - dump dom_result to rpa_python.txt
+[RPA][144] - listening for inputs
+[RPA][145] - https://www.qcc.com/
+[RPA][145] - listening for inputs
+[RPA][146] - dom return document.readyState=="complete"
+[RPA][146] - listening for inputs
+[RPA][147] - dump dom_result to rpa_python.txt
+[RPA][147] - listening for inputs
+[RPA][148] - dom return document.readyState=="complete"
+[RPA][148] - listening for inputs
+[RPA][149] - dump dom_result to rpa_python.txt
+[RPA][149] - listening for inputs
+[RPA][150] - exist_result = exist('#searchKey').toString()
+[RPA][150] - listening for inputs
+[RPA][151] - dump exist_result to rpa_python.txt
+[RPA][151] - listening for inputs
+[RPA][152] - type #searchKey as 安升电子（深圳）有限公司
+[RPA][152] - listening for inputs
+[RPA][153] - exist_result = exist('body > div > div.app-home > section.nindex-search > div > div > div > div.app-search-input.big > div > div > span > button').toString()
+[RPA][153] - listening for inputs
+[RPA][154] - dump exist_result to rpa_python.txt
+[RPA][154] - listening for inputs
+[RPA][155] - click body > div > div.app-home > section.nindex-search > div > div > div > div.app-search-input.big > div > div > span > button
+[RPA][155] - listening for inputs
+[RPA][156] - dom return document.readyState=="complete"
+[RPA][156] - listening for inputs
+[RPA][157] - dump dom_result to rpa_python.txt
+[RPA][157] - listening for inputs
+[RPA][158] - dom return document.readyState=="complete"
+[RPA][158] - listening for inputs
+[RPA][159] - dump dom_result to rpa_python.txt
+[RPA][159] - listening for inputs
+[RPA][160] - dom element = document.querySelector('body > div > div.app-search > div.container.m-t > div.adsearch-list > div > div.msearch.select-search-enable > div > table > tr.frtrt.tsd0 > td:nth-child(3) > div > span > span.copy-title > a')
+[RPA][160] - listening for inputs
+[RPA][161] - dump dom_result to rpa_python.txt
+[RPA][161] - listening for inputs
+[RPA][162] - dom return element.href
+[RPA][162] - listening for inputs
+[RPA][163] - dump dom_result to rpa_python.txt
+[RPA][163] - listening for inputs
+[RPA][164] - https://www.qcc.com/firm/34099a6c9427d06111f6db207ee7e70a.html
+[RPA][164] - listening for inputs
+[RPA][165] - dom return document.readyState=="complete"
+[RPA][165] - listening for inputs
+[RPA][166] - dump dom_result to rpa_python.txt
+[RPA][166] - listening for inputs
+[RPA][167] - dom return document.readyState=="complete"
+[RPA][167] - listening for inputs
+[RPA][168] - dump dom_result to rpa_python.txt
+[RPA][168] - listening for inputs
+[RPA][169] - dom a = document.querySelector('body > div > div.company-detail > div:nth-child(4) > div > div > div.nav-head > a:nth-child(1) > h2')
+[RPA][169] - listening for inputs
+[RPA][170] - dump dom_result to rpa_python.txt
+[RPA][170] - listening for inputs
+[RPA][171] - dom return a.textContent
+[RPA][171] - listening for inputs
+[RPA][172] - dump dom_result to rpa_python.txt
+[RPA][172] - listening for inputs
+[RPA][173] - dom a229 = 0
+[RPA][173] - listening for inputs
+[RPA][174] - dump dom_result to rpa_python.txt
+[RPA][174] - listening for inputs
+[RPA][175] - dom if (document.querySelector('#partner > div:nth-child(2) > div.app-tree-table > table > tr:nth-child(2) > td.left > div > span.cont > span > a')){a229 = 1}
+[RPA][175] - listening for inputs
+[RPA][176] - dump dom_result to rpa_python.txt
+[RPA][176] - listening for inputs
+[RPA][177] - dom return a229
+[RPA][177] - listening for inputs
+[RPA][178] - dump dom_result to rpa_python.txt
+[RPA][178] - listening for inputs
+[RPA][179] - dom a = document.querySelectorAll('#partner > div > div.app-tree-table > table > tr > td.left > div > span.cont > span > a')
+[RPA][179] - listening for inputs
+[RPA][180] - dump dom_result to rpa_python.txt
+[RPA][180] - listening for inputs
+[RPA][181] - dom return a.length
+[RPA][181] - listening for inputs
+[RPA][182] - dump dom_result to rpa_python.txt
+[RPA][182] - listening for inputs
+[RPA][183] - exist_result = exist('#partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(2) > td.left > div > span.cont > span > a').toString()
+[RPA][183] - listening for inputs
+[RPA][184] - dump exist_result to rpa_python.txt
+[RPA][184] - listening for inputs
+[RPA][185] - read #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(2) > td.left > div > span.cont > span > a to read_result
+[RPA][185] - listening for inputs
+[RPA][186] - dump read_result to rpa_python.txt
+[RPA][186] - listening for inputs
+[RPA][187] - dom element = document.querySelector(' #partner > div.tablist > div.app-tree-table > table.ntable > tr:nth-child(2) > td.left > div > span.cont > span > a ')
+[RPA][187] - listening for inputs
+[RPA][188] - dump dom_result to rpa_python.txt
+[RPA][188] - listening for inputs
+[RPA][189] - dom return element.href
+[RPA][189] - listening for inputs
+[RPA][190] - dump dom_result to rpa_python.txt
+[RPA][190] - listening for inputs
+[RPA][191] - count_result = count('//*[@id="mainmember"]/div[2]/div[2]/table/tr/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][191] - listening for inputs
+[RPA][192] - dump count_result to rpa_python.txt
+[RPA][192] - listening for inputs
+[RPA][193] - count_result = count('//*[@id="mainmember"]/div[3]/div[2]/table/tr/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][193] - listening for inputs
+[RPA][194] - dump count_result to rpa_python.txt
+[RPA][194] - listening for inputs
+[RPA][195] - dom a = document.querySelector('body > div > div.company-detail > div:nth-child(4) > div > div > div.nav-head > a:nth-child(1) > h2')
+[RPA][195] - listening for inputs
+[RPA][196] - dump dom_result to rpa_python.txt
+[RPA][196] - listening for inputs
+[RPA][197] - dom return a.textContent
+[RPA][197] - listening for inputs
+[RPA][198] - dump dom_result to rpa_python.txt
+[RPA][198] - listening for inputs
+[RPA][199] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][199] - listening for inputs
+[RPA][200] - dump exist_result to rpa_python.txt
+[RPA][200] - listening for inputs
+[RPA][201] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][201] - listening for inputs
+[RPA][202] - dump read_result to rpa_python.txt
+[RPA][202] - listening for inputs
+[RPA][203] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[3]').toString()
+[RPA][203] - listening for inputs
+[RPA][204] - dump exist_result to rpa_python.txt
+[RPA][204] - listening for inputs
+[RPA][205] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[2]/td[3] to read_result
+[RPA][205] - listening for inputs
+[RPA][206] - dump read_result to rpa_python.txt
+[RPA][206] - listening for inputs
+[RPA][207] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[2]/div/span[2]/span[1]/a').toString()
+[RPA][207] - listening for inputs
+[RPA][208] - dump exist_result to rpa_python.txt
+[RPA][208] - listening for inputs
+[RPA][209] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[2]/div/span[2]/span[1]/a to read_result
+[RPA][209] - listening for inputs
+[RPA][210] - dump read_result to rpa_python.txt
+[RPA][210] - listening for inputs
+[RPA][211] - exist_result = exist('//*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[3]').toString()
+[RPA][211] - listening for inputs
+[RPA][212] - dump exist_result to rpa_python.txt
+[RPA][212] - listening for inputs
+[RPA][213] - read //*[@id="mainmember"]/div[2]/div[2]/table/tr[3]/td[3] to read_result
+[RPA][213] - listening for inputs
+[RPA][214] - dump read_result to rpa_python.txt
+[RPA][214] - listening for inputs
+[RPA][215] - dom window.history.back(-1)
+[RPA][215] - listening for inputs
+[RPA][216] - dump dom_result to rpa_python.txt
+[RPA][216] - listening for inputs
+[RPA][217] - https://www.qcc.com/
+[RPA][217] - listening for inputs
+[RPA][218] - dom return document.readyState=="complete"
+[RPA][218] - listening for inputs
+[RPA][219] - dump dom_result to rpa_python.txt
+[RPA][219] - listening for inputs
+[RPA][220] - dom return document.readyState=="complete"
+[RPA][220] - listening for inputs
+[RPA][221] - dump dom_result to rpa_python.txt
+[RPA][221] - listening for inputs
+[RPA][222] - exist_result = exist('#searchKey').toString()
+[RPA][222] - listening for inputs
+[RPA][223] - dump exist_result to rpa_python.txt
+[RPA][223] - listening for inputs
+[RPA][224] - type #searchKey as 水伯格五金（深圳）有限公�?
+[RPA][224] - listening for inputs
+[RPA][225] - exist_result = exist('body > div > div.app-home > section.nindex-search > div > div > div > div.app-search-input.big > div > div > span > button').toString()
+[RPA][225] - listening for inputs
+[RPA][226] - dump exist_result to rpa_python.txt
+[RPA][226] - listening for inputs
+[RPA][227] - click body > div > div.app-home > section.nindex-search > div > div > div > div.app-search-input.big > div > div > span > button
